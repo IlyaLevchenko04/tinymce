@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tinymce/static/css/main.e6c13ad2.css",
+    "main.js": "/tinymce/static/js/main.b94b7f6b.js",
+    "static/js/453.e8443acb.chunk.js": "/tinymce/static/js/453.e8443acb.chunk.js",
+    "index.html": "/tinymce/index.html",
+    "main.e6c13ad2.css.map": "/tinymce/static/css/main.e6c13ad2.css.map",
+    "main.b94b7f6b.js.map": "/tinymce/static/js/main.b94b7f6b.js.map",
+    "453.e8443acb.chunk.js.map": "/tinymce/static/js/453.e8443acb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b94b7f6b.js"
+  ]
+}
