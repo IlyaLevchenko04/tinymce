@@ -15,18 +15,31 @@ export default function App() {
         value={content}
         init={{
           height: 500,
-          menubar: true,
           plugins: [
-            "code",
-            "advlist autolink lists link image charmap print preview anchor",
-            "searchreplace visualblocks fullscreen",
-            "insertdatetime media table paste code help wordcount",
+            "table",
+            "code", // Code view
+            "advlist",
+            "autolink",
+            "lists",
+            "link",
+            "image", // Image handling
+            "charmap",
+            "print",
+            "preview",
+            "anchor",
+            "searchreplace",
+            "visualblocks",
+            "fullscreen",
+            "insertdatetime",
+            "media",
+            "paste",
+            "help",
+            "wordcount",
           ],
           toolbar:
-            "undo redo | formats | bold italic underline strikethrough | code" +
-            "alignleft aligncenter alignright alignjustify | " +
-            "bullist numlist outdent indent | link image | code",
-
+            "undo redo | formatselect | bold italic underline strikethrough | " +
+            "bullist numlist outdent indent | table link image | code", // Includes image and code buttons
+          menubar: "file edit view insert format tools table",
           content_style:
             "body { font-family:Helvetica,Arial,sans-serif; font-size:14px }",
         }}
